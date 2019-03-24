@@ -13,6 +13,7 @@ public class SelectRadio {
 		for(WebElement currRadio : radioTripType){
 			if(currRadio.getAttribute("value").equalsIgnoreCase(tripType)){
 				currRadio.click();
+				System.out.println("testing");
 			}
 		}
 		//radioTripType.get(1).getAttribute("value");
